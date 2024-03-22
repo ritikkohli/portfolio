@@ -12,8 +12,8 @@ export default function Sidebar() {
   
 
         <div>
-          <SocialLink name="All projects" link="#" icon="ri-github-line text-2xl"/>
-          <SocialLink name="Resume" link="#" icon="ri-download-line text-2xl"/>
+          {/* <SocialLink name="All projects" link="#" icon="ri-github-line text-2xl"/> */}
+          <SocialLink name="Resume" link="/files/resume.pdf" icon="ri-download-line text-2xl"/>
         </div>
       </div>    
     );
